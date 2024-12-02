@@ -69,10 +69,13 @@ const FollowUs = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-2">
+      <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-8">
+        {/* Load More Button */}
         <button className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
           Load More
         </button>
+
+        {/* Instagram Follow Button */}
         <button className="flex items-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-400">
           <i className="fab fa-instagram text-xl sm:text-2xl mr-2"></i>
           Follow on Instagram
