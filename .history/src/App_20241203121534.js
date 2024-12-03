@@ -11,8 +11,6 @@ import Properties from "./components/Properties";
 import Subscribe from "./components/Subscribe";
 
 
-import "@fortawesome/fontawesome-free/css/all.min.css";
-
 function App() {
   return (
     <>
@@ -24,6 +22,8 @@ function App() {
         <div className="absolute top-0">
           <HeroCarousel />
         </div>
+
+        {/* <HeroCarousel /> */}
       </div>
       <Products />
       <PeopleCarousel />
